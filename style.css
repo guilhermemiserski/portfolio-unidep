@@ -68,11 +68,15 @@ p {
 .c {
     display: flex;
     flex-wrap: wrap;
+    column-gap: 3rem;
 }
 
 .skill {
-    width: 24.4rem;
+    width: 100%;
     text-align: justify;
+    display: flex;
+    flex-basis: 45%;
+    flex-wrap: wrap;
 }
 
 .skills {
@@ -186,6 +190,10 @@ label {
     }
 
     .row {
+        display: inline;
+    }
+
+    .c {
         display: inline;
     }
 }
