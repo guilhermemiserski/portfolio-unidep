@@ -131,7 +131,6 @@ label {
 }
 
 .contatos {
-    display: flex;
     justify-content: space-between;
 }
 
@@ -152,5 +151,41 @@ label {
     .main {
         flex-direction: column;
         align-items: center;
+    }
+
+    aside {
+        width: 100%;
+        border-bottom: 1px solid #dddd;
+    }
+
+    .info {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .pr-3rem {
+        width: auto;
+    }
+
+    .skill {
+        width: auto;
+    }
+
+    .expertise {
+        flex-direction: column;
+        width: 100%;
+        border: none;
+    }
+
+    .textos {
+        flex-direction: column;
+    }
+
+    .contatos {
+        display: inline;
+    }
+
+    .row {
+        display: inline;
     }
 }
