@@ -129,7 +129,7 @@ label {
     font-weight: bold;
 }
 
-.row {
+.container {
     display: flex;
     flex-direction: row;
 }
@@ -189,7 +189,7 @@ label {
         display: inline;
     }
 
-    .row {
+    .container {
         display: inline;
     }
 
